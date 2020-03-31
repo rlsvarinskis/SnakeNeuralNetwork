@@ -1,2 +1,2 @@
 # SnakeNeuralNetwork
-An evolving neural network to play snake from 10th grade
+An evolving neural network to play snake that I made in 10th grade

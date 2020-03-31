@@ -1,0 +1,45 @@
+html, body, #canvas
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#canvas
+{
+	background-color: black;
+	width: calc(100% - 500px);
+	transition: width ease-in-out 0.2s;
+}
+
+body[full] #canvas
+{
+	width: calc(100% - 25px);
+}
+
+#network
+{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	height: 100%;
+	width: 500px;
+	background-color: rgb(32, 32, 128);
+	box-shadow: 0 0 10px black;
+	transition: width ease-in-out 0.2s;
+	overflow: hidden;
+}
+
+body[full] #network
+{
+	width: 25px;
+}
+
+.ainetwork
+{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
